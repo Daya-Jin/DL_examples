@@ -67,7 +67,7 @@ class MnistData:
         '''
         生成mini-batch
         '''
-        while self._idx < self._n_samples:
+        while self._idx+self._batch_size < self._n_samples:
             yield self.data[self._idx: (self._idx + self._batch_size)], self.target[
                                                                          self._idx: (self._idx + self._batch_size)]
             self._idx += self._batch_size
@@ -158,7 +158,7 @@ class CifarData:
         '''
         生成mini-batch
         '''
-        while self._idx < self._n_samples:
+        while self._idx + self._batch_size < self._n_samples:
             yield self.data[self._idx: (self._idx + self._batch_size)], self.target[
                                                                          self._idx: (self._idx + self._batch_size)]
             self._idx += self._batch_size

@@ -2,7 +2,7 @@ import tensorflow as tf
 
 
 def mini_CNN(X_img, activation=tf.nn.relu, initializer=None,
-             filters=32, conv_size=(3, 3), pool_size=(2, 2), strides=(2, 2), unit_O=10):
+             filters=32, conv_size=(3, 3), pool_size=(2, 2), strides=(2, 2), fc_size = 128, unit_O=10):
     conv1 = tf.layers.conv2d(X_img, filters=filters,
                              kernel_size=conv_size, padding='same',
                              activation=tf.nn.relu, kernel_initializer=initializer, name='conv1')
@@ -18,7 +18,9 @@ def mini_CNN(X_img, activation=tf.nn.relu, initializer=None,
                              activation=tf.nn.relu, kernel_initializer=initializer, name='conv3')
     pooling3 = tf.layers.max_pooling2d(conv3, pool_size=pool_size,
                                        strides=strides, name='pooling3')
-    logits = tf.layers.dense(tf.layers.flatten(pooling3), unit_O,
-                             activation=None, kernel_initializer=initializer)
+    fc = tf.layers.dense(tf.layers.flatten(pooling3),
+                         fc_size, activation=tf.nn.relu)
+    logits = tf.layers.dense(fc, unit_O,
+                     activation=None, kernel_initializer=initializer)
 
     return logits
