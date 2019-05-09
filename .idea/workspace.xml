@@ -2,14 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6411affa-a188-46e3-9119-1def06f521fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CNN/1. LeNet-5.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/2. mini_CNN.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/3. mini_VGG.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/4. mini_ResNet_34.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/5. mini_GoogLeNet.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/6. mini_MobileNet.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/7. fine_tuning.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/IMG_Augmentation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/1. LeNet-5-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/2. mini_CNN-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/3. mini_VGG-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/4. mini_ResNet_34-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/5. mini_GoogLeNet-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/6. mini_MobileNet-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/7. fine_tuning-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/BN &amp; Dropout-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/CNN-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/IMG_Augmentation-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/LeNet-5-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/VGG16-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/mini_CNN-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/mini_ResNet-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/mini_ResNet_34-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/.ipynb_checkpoints/mini_VGG-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/APP/.ipynb_checkpoints/style_trans-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/APP/style_trans.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/1. LeNet-5.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/2. mini_CNN.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/3. mini_VGG.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/4. mini_ResNet_34.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/5. mini_GoogLeNet.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/6. mini_MobileNet.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/Toy_model/7. fine_tuning.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/VGG16.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/VGG16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/gugong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/mini_CNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/.ipynb_checkpoints/BiRNN_CLF-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/.ipynb_checkpoints/LSTM_seq-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/.ipynb_checkpoints/RNN-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/.ipynb_checkpoints/RNN_practice-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/.ipynb_checkpoints/min_char_RNN-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/BiRNN_CLF.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/LSTM_seq.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/cano-trim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RNN/min_char_RNN.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/.ipynb_checkpoints/BN &amp; Dropout-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/.ipynb_checkpoints/IMG_Augmentation-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/.ipynb_checkpoints/Save&amp;Load-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/.ipynb_checkpoints/Tensorboard-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/BN &amp; Dropout.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/IMG_Augmentation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/Save&amp;Load.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/Tensorboard.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/Tensorboard/test/events.out.tfevents.1557030884.user-ProLiant-ML350-Gen9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/Tensorboard/train/events.out.tfevents.1557025261.user-ProLiant-ML350-Gen9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/Tensorboard/train/events.out.tfevents.1557030881.user-ProLiant-ML350-Gen9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-13.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-13.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-13.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-14.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-14.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-14.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-15.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-15.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-15.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-16.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-16.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-16.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-17.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-17.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-17.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-18.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-18.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-18.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-19.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-19.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-19.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-20.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-20.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TensorFlow/model/ckp-20.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +92,11 @@
     <session id="533772977">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,26 +123,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataset/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
-                <marker date="1557107549000" expanded="true" signature="4767:5308" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CNN/VGG16.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1557238108000" expanded="true" signature="4767:5308" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,8 +175,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-29" />
-    <option name="y" value="147" />
+    <option name="x" value="-30" />
+    <option name="y" value="146" />
     <option name="width" value="1540" />
     <option name="height" value="970" />
   </component>
@@ -161,11 +216,6 @@
             <path>
               <item name="DL_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_for_learner" type="462c0819:PsiDirectoryNode" />
-              <item name="CNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DL_for_learner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DL_for_learner" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,7 +232,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructureAndAlgorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -281,10 +331,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="118" width="1232" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="-24" y="117" width="1232" height="776" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19931857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,23 +377,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CNN/VGG16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
-            <marker date="1557107549000" expanded="true" signature="4767:5308" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN/VGG16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1557238108000" expanded="true" signature="4767:5308" ph="..." />
           </folding>
         </state>
       </provider>
