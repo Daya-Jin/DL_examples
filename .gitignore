@@ -1,3 +1,5 @@
 vgg16.npy
-/dataset/
+/dataset/cifar-10-batches-py
+/dataset/MNIST
 *.txt
+text8
