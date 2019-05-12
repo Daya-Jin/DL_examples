@@ -1,5 +1,6 @@
 vgg16.npy
 /dataset/cifar-10-batches-py/
 /dataset/MNIST/
+/dataset/movielens/
 *.txt
 text8

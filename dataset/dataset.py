@@ -4,7 +4,7 @@ import struct
 import os
 
 
-##################### MNIST ######################
+##################### MNIST START ######################
 
 def load_image(path):
     with open(path, 'rb') as fd:
@@ -67,9 +67,9 @@ class MnistData:
         '''
         生成mini-batch
         '''
-        while self._idx+self._batch_size < self._n_samples:
+        while self._idx + self._batch_size < self._n_samples:
             yield self.data[self._idx: (self._idx + self._batch_size)], self.target[
-                                                                         self._idx: (self._idx + self._batch_size)]
+                                                                        self._idx: (self._idx + self._batch_size)]
             self._idx += self._batch_size
 
         self._idx = 0
@@ -91,9 +91,9 @@ def load_mnist(batch_size=64):
     return train_data, test_data
 
 
-##################### MNIST ######################
+##################### MNIST END ######################
 
-##################### CIFAR-10 ######################
+##################### CIFAR-10 START ######################
 
 def unpickle(file):
     '''
@@ -160,7 +160,7 @@ class CifarData:
         '''
         while self._idx + self._batch_size < self._n_samples:
             yield self.data[self._idx: (self._idx + self._batch_size)], self.target[
-                                                                         self._idx: (self._idx + self._batch_size)]
+                                                                        self._idx: (self._idx + self._batch_size)]
             self._idx += self._batch_size
 
         self._idx = 0
@@ -179,9 +179,98 @@ def load_cifar10(batch_size=64):
                           normalize=True, shuffle=False)
     return train_data, test_data
 
-##################### CIFAR-10 ######################
+
+##################### CIFAR-10 END ######################
+
+##################### MovieLens START ######################
+
+class MLData:
+    def __init__(self, path, batch_size=32, shuffle=True):
+        self._data = list()
+        self._target = list()
+        self._n_samples = 0
+        self._n_features = 0
+
+        self._idx = 0  # mini-batch的游标
+        self._batch_size = batch_size
+
+        self._load(path)
+
+        if shuffle:
+            self._shuffle_data()
+
+        print(self._data.shape, self._target.shape)
+
+    def _load(self, path):
+        tmp = np.load(path, allow_pickle=True)
+        self._data = tmp[:, :-1]
+        self._target = tmp[:, -1]
+
+        self._n_samples, self.n_features = self._data.shape[0], self._data.shape[1]
+
+    def _shuffle_data(self):
+        '''
+        打乱数据
+        '''
+        idxs = np.random.permutation(self._n_samples)
+        self._data = self._data[idxs]
+        self._target = self._target[idxs]
+
+    def next_batch(self):
+        '''
+        生成mini-batch
+        '''
+        while self._idx < self._n_samples:
+            yield self._data[self._idx: (self._idx + self._batch_size)], self._target[
+                                                                         self._idx: (self._idx + self._batch_size)]
+            self._idx += self._batch_size
+
+        self._idx = 0
+        self._shuffle_data()
+
+    @property
+    def u_id(self):
+        return np.array(self._data[:, 0], dtype=np.int32)
+
+    @property
+    def u_occu(self):
+        return np.array(self._data[:, 2], dtype=np.int32)
+
+    @property
+    def u_age_gender(self):
+        return np.array(self._data[:, 1], dtype=np.int32)
+
+    @property
+    def m_id(self):
+        return np.array(self._data[:, 3], dtype=np.int32)
+
+    @property
+    def m_title(self):
+        return self._data[:, 4]
+
+    @property
+    def m_genres(self):
+        return self._data[:, 5]
+
+    @property
+    def m_year(self):
+        return np.array(self._data[:, 6], dtype=np.int32)
+
+
+def load_ml(batch_size=64):
+    ML_DIR = os.path.join(os.path.dirname(__file__), "movielens")
+    train_filename = os.path.join(ML_DIR, 'train.npy')
+    test_filename = os.path.join(ML_DIR, 'test.npy')
+
+    train_data = MLData(train_filename, batch_size=batch_size)
+    test_data = MLData(test_filename, batch_size=batch_size)
+    return train_data, test_data
+
+
+##################### MovieLens END ######################
 
 
 if __name__ == '__main__':
     # _, _ = load_mnist(32)
-    _, _ = load_cifar10()
+    # _, _ = load_cifar10()
+    _,_=load_ml()
