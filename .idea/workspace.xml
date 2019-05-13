@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6411affa-a188-46e3-9119-1def06f521fc" name="Default Changelist" comment="" />
+    <list default="true" id="6411affa-a188-46e3-9119-1def06f521fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/VGG16-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/neural-network-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/neuron-multi_output-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNN/.ipynb_checkpoints/2. DNN_CIFAR-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DNN/.ipynb_checkpoints/2. DNN_CIFAR-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNN/2. DNN_CIFAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DNN/2. DNN_CIFAR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/text_clf/.ipynb_checkpoints/LSTM-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/text_clf/.ipynb_checkpoints/LSTM-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP/text_clf/LSTM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/text_clf/LSTM.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecSys/.ipynb_checkpoints/demo-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RecSys/.ipynb_checkpoints/demo-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecSys/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RecSys/demo.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,51 +20,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DL_for_learner$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1557733757569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset/flickr30k" />
     <SUITE FILE_PATH="coverage/DL_for_learner$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1557581478204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset/movielens" />
     <SUITE FILE_PATH="coverage/DL_for_learner$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1557582352210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
     <SUITE FILE_PATH="coverage/DL_for_learner$VGG16.coverage" NAME="VGG16 Coverage Results" MODIFIED="1557146903982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/DL_for_learner$feature_extraction.coverage" NAME="feature_extraction Coverage Results" MODIFIED="1557740465298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset/flickr30k" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="533772977">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="8" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.6" value="9" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1576" />
+          <entry key="py" value="3417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1576" />
+          <entry key="Python" value="3417" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataset/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+            <state relative-caret-position="5808">
+              <caret line="267" selection-start-line="267" selection-end-line="267" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
                 <marker date="1557628772253" expanded="true" signature="4783:5325" ph="..." />
@@ -63,14 +77,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/movielens/preprocess.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="395">
+              <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1557628734405" expanded="true" signature="4797:4800" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1557745320540" expanded="true" signature="131:136" ph="..." />
+                <marker date="1557745320540" expanded="true" signature="497:666" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/flickr30k/preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="50" column="84" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="84" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1557737020991" expanded="true" signature="972:1219" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,8 +136,10 @@
         <option value="$PROJECT_DIR$/3. RNN/LSTM.py" />
         <option value="$PROJECT_DIR$/RNN/LSTM.py" />
         <option value="$PROJECT_DIR$/dataset/movielens/__init__.py" />
-        <option value="$PROJECT_DIR$/dataset/movielens/preprocess.py" />
         <option value="$PROJECT_DIR$/dataset/dataset.py" />
+        <option value="$PROJECT_DIR$/dataset/movielens/preprocess.py" />
+        <option value="$PROJECT_DIR$/dataset/flickr30k/preprocess.py" />
+        <option value="$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py" />
       </list>
     </option>
   </component>
@@ -119,9 +149,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-15" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="392" />
+    <option name="y" value="143" />
     <option name="width" value="1540" />
     <option name="height" value="970" />
   </component>
@@ -166,7 +196,7 @@
               <item name="DL_for_learner" type="b2602c69:ProjectViewProjectNode" />
               <item name="DL_for_learner" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
-              <item name="movielens" type="462c0819:PsiDirectoryNode" />
+              <item name="flickr30k" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,7 +207,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructureAndAlgorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -201,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dataset">
+  <component name="RunManager" selected="Python.feature_extraction">
     <configuration name="VGG16" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DL_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,6 +276,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="feature_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DL_for_learner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/flickr30k" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocess (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DL_for_learner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset/flickr30k" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset/flickr30k/preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DL_for_learner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -272,9 +346,13 @@
       <item itemvalue="Python.dataset" />
       <item itemvalue="Python.VGG16" />
       <item itemvalue="Python.preprocess" />
+      <item itemvalue="Python.preprocess (1)" />
+      <item itemvalue="Python.feature_extraction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.feature_extraction" />
+        <item itemvalue="Python.preprocess (1)" />
         <item itemvalue="Python.dataset" />
         <item itemvalue="Python.preprocess" />
         <item itemvalue="Python.VGG16" />
@@ -300,15 +378,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="41" width="1232" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="314" y="115" width="1232" height="776" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21294719" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2197615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29393467" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970452" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31104198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968896" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,23 +438,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/movielens/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1557628734405" expanded="true" signature="4797:4800" ph="..." />
-          </folding>
+        <state relative-caret-position="263">
+          <caret line="139" column="59" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+        <state relative-caret-position="5808">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
             <marker date="1557628772253" expanded="true" signature="4783:5325" ph="..." />
             <marker date="1557628772253" expanded="true" signature="7332:7667" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/flickr30k/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="50" column="84" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1557737020991" expanded="true" signature="972:1219" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1557745320540" expanded="true" signature="131:136" ph="..." />
+            <marker date="1557745320540" expanded="true" signature="497:666" ph="..." />
           </folding>
         </state>
       </provider>
