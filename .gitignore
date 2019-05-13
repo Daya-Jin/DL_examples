@@ -3,6 +3,6 @@ vgg16.npy
 /dataset/MNIST/
 /dataset/movielens/
 *.txt
-*.pickle
 /dataset/flickr30k/flickr30k-images/
+/dataset/flickr30k/features/
 text8
