@@ -91,8 +91,6 @@ def load_mnist(batch_size=64):
     return train_data, test_data
 
 
-##################### MNIST END ######################
-
 ##################### CIFAR-10 START ######################
 
 def unpickle(file):
@@ -180,8 +178,6 @@ def load_cifar10(batch_size=64):
     return train_data, test_data
 
 
-##################### CIFAR-10 END ######################
-
 ##################### MovieLens START ######################
 
 class MLData:
@@ -267,10 +263,115 @@ def load_ml(batch_size=64):
     return train_data, test_data
 
 
-##################### MovieLens END ######################
+##################### news_CN START ######################
+
+class TextData:
+    def __init__(self, filename, vocal, cat_dict, t_size=5, batch_size=32, shuffle=True):
+        '''
+        :param filename: 经过分词的文本文件，每行的格式为'label    text'
+        :param vocal: 文本编码器
+        :param cat_dict: 类别编码器
+        :param t_size: 时间尺寸
+        :param batch_size:
+        :param shuffle:
+        '''
+        self._data = list()
+        self._target = list()
+        self._n_samples = 0
+
+        self._idx = 0  # mini-batch的游标
+        self._batch_size = batch_size
+
+        self._vocal = vocal
+        self._cat_dict = cat_dict
+        self._t_size = t_size
+
+        self._load_data(filename)
+
+        if shuffle:
+            self._shuffle_data()
+
+        print(self._data.shape, self._target.shape)
+
+    def _load_data(self, filename):
+        with open(filename, 'r', encoding='utf-8') as fd:
+            text = fd.readlines()
+
+        for line in text:
+            label, content = line.strip().split('\t')
+            x = self._vocal.s2id(content)
+            y = self._cat_dict.cat2id(label)
+
+            x = x[:self._t_size]
+            n_pad = self._t_size - len(x)  # 需要填充的位数
+            x = x + [self._vocal.unk for _ in range(n_pad)]
+
+            self._data.append(x)
+            self._target.append(y)
+
+        self._data = np.array(self._data)
+        self._target = np.array(self._target)
+        self._n_samples = self._data.shape[0]
+
+    def _shuffle_data(self):
+        '''
+        打乱数据
+        '''
+        idxs = np.random.permutation(self._n_samples)
+        self._data = self._data[idxs]
+        self._target = self._target[idxs]
+
+    def next_batch(self):
+        '''
+        生成mini-batch
+        '''
+        while self._idx + self._batch_size < self._n_samples:
+            yield self._data[self._idx: (self._idx + self._batch_size)], self._target[
+                                                                         self._idx: (self._idx + self._batch_size)]
+            self._idx += self._batch_size
+
+        self._idx = 0
+        self._shuffle_data()
+
+    @property
+    def voc_size(self):
+        return self._vocal.size
+
+
+def load_news(batch_size=32, cnt_thresh=10, t_size=5):
+    '''
+    载入news数据
+    :param batch_size:
+    :param cnt_thresh:
+    :param t_size:
+    :return:
+    '''
+    from dataset.news_CN.utils import CatDict
+    from NLP.vocab import Vocab
+
+    NEWS_DIR = os.path.join(os.path.dirname(__file__), "news_CN")
+    # 分词后的文件
+    seg_train_file = os.path.join(NEWS_DIR, 'cnews.seg_train.txt')
+    seg_val_file = os.path.join(NEWS_DIR, 'cnews.seg_val.txt')
+    seg_test_file = os.path.join(NEWS_DIR, 'cnews.seg_test.txt')
+    # 词表
+    vocal_table = os.path.join(NEWS_DIR, 'cnews.vocal.txt')
+    # 类别表
+    cat_file = os.path.join(NEWS_DIR, 'cnews.cat.txt')
+
+    voc_cls = Vocab(vocal_table, cnt_thresh)  # 文本编码器
+    cat_dict = CatDict(cat_file)  # 类别编码器
+
+    train_data = TextData(seg_train_file, voc_cls, cat_dict,
+                          t_size, batch_size=batch_size)
+    test_data = TextData(seg_test_file, voc_cls, cat_dict,
+                         t_size, batch_size=batch_size)
+
+    return train_data, test_data
 
 
 if __name__ == '__main__':
     # _, _ = load_mnist(32)
     # _, _ = load_cifar10()
-    _, _ = load_ml()
+    # _, _ = load_ml()
+    _, _ = load_news()
