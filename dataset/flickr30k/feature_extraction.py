@@ -6,6 +6,11 @@ import pickle
 
 
 def parse_cap(cap_path):
+    '''
+    解析cap文件，返回img与cap的映射表
+    :param cap_path:
+    :return:
+    '''
     with gfile.GFile(cap_path, 'r') as fd:
         text = fd.readlines()
 

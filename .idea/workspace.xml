@@ -3,15 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6411affa-a188-46e3-9119-1def06f521fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/VGG16-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/neural-network-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/neuron-multi_output-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNN/.ipynb_checkpoints/2. DNN_CIFAR-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DNN/.ipynb_checkpoints/2. DNN_CIFAR-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DNN/2. DNN_CIFAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DNN/2. DNN_CIFAR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImgCap/.ipynb_checkpoints/demo-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ImgCap/.ipynb_checkpoints/demo-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImgCap/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ImgCap/demo.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP/text_clf/.ipynb_checkpoints/LSTM-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/text_clf/.ipynb_checkpoints/LSTM-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP/text_clf/LSTM.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/NLP/text_clf/LSTM.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecSys/.ipynb_checkpoints/demo-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RecSys/.ipynb_checkpoints/demo-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RecSys/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RecSys/demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/flickr30k/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/flickr30k/preprocess.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +27,14 @@
     <session id="533772977">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="9" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,41 +49,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3417" />
+          <entry key="py" value="3448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3417" />
+          <entry key="Python" value="3448" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5808">
-              <caret line="267" selection-start-line="267" selection-end-line="267" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-                <marker date="1557628772253" expanded="true" signature="4783:5325" ph="..." />
-                <marker date="1557628772253" expanded="true" signature="7332:7667" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+            <state relative-caret-position="308">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1557745320540" expanded="true" signature="131:136" ph="..." />
-                <marker date="1557745320540" expanded="true" signature="497:666" ph="..." />
+                <marker date="1557815465628" expanded="true" signature="207:212" ph="..." />
+                <marker date="1557815465628" expanded="true" signature="573:742" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,11 +78,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataset/flickr30k/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
+            <state relative-caret-position="1034">
               <caret line="50" column="84" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="84" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1557737020991" expanded="true" signature="972:1219" ph="..." />
               </folding>
             </state>
           </provider>
@@ -150,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="392" />
-    <option name="y" value="143" />
+    <option name="x" value="30" />
+    <option name="y" value="82" />
     <option name="width" value="1540" />
     <option name="height" value="970" />
   </component>
@@ -180,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,9 +361,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="115" width="1232" height="776" extended-state="0" />
+    <frame x="24" y="66" width="1232" height="776" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2197615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2265758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -445,35 +428,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5808">
+        <state relative-caret-position="549">
           <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
-            <marker date="1557628772253" expanded="true" signature="4783:5325" ph="..." />
-            <marker date="1557628772253" expanded="true" signature="7332:7667" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1557815465628" expanded="true" signature="207:212" ph="..." />
+            <marker date="1557815465628" expanded="true" signature="573:742" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/flickr30k/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="1034">
           <caret line="50" column="84" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="84" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1557737020991" expanded="true" signature="972:1219" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/flickr30k/feature_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="70" column="53" lean-forward="true" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1557745320540" expanded="true" signature="131:136" ph="..." />
-            <marker date="1557745320540" expanded="true" signature="497:666" ph="..." />
           </folding>
         </state>
       </provider>

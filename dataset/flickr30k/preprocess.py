@@ -29,9 +29,9 @@ def gen_voc(cap_path, output_path):
     voc_list = sorted(voc_dict.items(), key=lambda x: x[1], reverse=True)
 
     with open(output_path, 'w', encoding='utf-8') as fd:
-        fd.write('<unk>\t99999\n')  # 未知单词
-        for item in voc_list:
-            fd.write('{}\t{}\n'.format(item[0], item[1]))  # 写入(word,word_cnt)
+        fd.write('0\t<UNK>\t99999\n')  # 未知单词
+        for idx,item in enumerate(voc_list):
+            fd.write('{}\t{}\t{}\n'.format(idx+1,item[0], item[1]))  # 写入(idx,word,word_cnt)
 
     return voc_dict  # 返回词典字典备用
 
