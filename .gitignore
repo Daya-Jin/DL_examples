@@ -1,8 +1,9 @@
-vgg16.npy
+/CNN/Models/*.npy
+/CNN/Models/inception-v3/
 /dataset/cifar-10-batches-py/
 /dataset/MNIST/
-/dataset/movielens/
-*.txt
+/dataset/movielens/*.npy
+/dataset/movielens/ml-1m/
 /dataset/flickr30k/flickr30k-images/
 /dataset/flickr30k/features/
-text8
+/dataset/news_CN/*.txt

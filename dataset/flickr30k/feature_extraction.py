@@ -8,7 +8,8 @@ import pickle
 def parse_cap(cap_path):
     '''
     解析cap文件，返回img与cap的映射表
-    :param cap_path:
+    对于flickr30k，每张图片对应5个caption，所以映射关系为{img:[cap0,...,cap4]}
+    :param cap_path: caption文件路径
     :return:
     '''
     with gfile.GFile(cap_path, 'r') as fd:
@@ -28,6 +29,11 @@ def parse_cap(cap_path):
 
 
 def load_graph(pb_path):
+    '''
+    载入用于提取特征的模型图
+    :param pb_path: pb文件路径
+    :return: None
+    '''
     with gfile.FastGFile(pb_path, 'rb') as fd:
         graph = tf.GraphDef()
         graph.ParseFromString(fd.read())
@@ -56,6 +62,7 @@ if __name__ == '__main__':
     load_graph(model_path)
 
     with tf.Session() as sess:
+        # 取pooling层的数据流作为特征
         feature_layer = sess.graph.get_tensor_by_name('pool_3:0')
 
         for i in range(n_batches):

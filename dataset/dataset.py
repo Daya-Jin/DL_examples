@@ -273,4 +273,4 @@ def load_ml(batch_size=64):
 if __name__ == '__main__':
     # _, _ = load_mnist(32)
     # _, _ = load_cifar10()
-    _,_=load_ml()
+    _, _ = load_ml()
