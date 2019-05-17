@@ -72,11 +72,13 @@ def handle_movie(path):
     for genre in movie_df.loc[:, 'Genres'].str.split('|'):
         genre_set.update(genre)
     genre_set.add('<PAD>')
+
     # 类别转id
     genre2id = {genre: idx for idx, genre in enumerate(genre_set)}
     # 多类别转list
     genres2list = {genres: [genre2id[genre] for genre in genres.split('|')]
                    for idx, genres in enumerate(movie_df.loc[:, 'Genres'].unique())}
+
     # 规整化处理
     genres_max = 5  # 设定最大允许的类别数
     for genres in genres2list.keys():
@@ -92,6 +94,7 @@ def handle_movie(path):
     word2id = {word: idx for idx, word in enumerate(word_set)}
     title2list = {title: [word2id[word] for word in title.split()]
                   for idx, title in enumerate(movie_df.loc[:, 'Title'].unique())}
+
     # 规整化处理
     title_max = 8
     for title in title2list.keys():
@@ -121,7 +124,7 @@ def merge_and_save(user_df, movie_df, mid2id, rating_df):
     '''
     rating_df.loc[:, 'UserID'] -= 1
     rating_df.loc[:, 'MovieID'] = rating_df.loc[:, 'MovieID'].map(mid2id)
-    rating_df.drop(['ts'], axis=1, inplace=True)
+    rating_df.drop(['ts'], axis=1, inplace=True)    # 丢弃时间戳
 
     data = pd.merge(pd.merge(user_df, rating_df), movie_df)
     data = data[['UserID', 'Age_Gender', 'Occupation',
