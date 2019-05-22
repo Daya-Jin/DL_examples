@@ -35,7 +35,7 @@ class Vocab:
 
     def word2id(self, word: str):
         '''
-        单次级别的编码
+        单词级别的编码
         :param word:
         :return:
         '''
@@ -43,7 +43,7 @@ class Vocab:
 
     def id2word(self, idx: int):
         '''
-        单次级别的解码
+        单词级别的解码
         :param idx:
         :return:
         '''
