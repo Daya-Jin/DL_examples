@@ -6,4 +6,8 @@
 /dataset/movielens/ml-1m/
 /dataset/flickr30k/flickr30k-images/
 /dataset/flickr30k/features/
+/dataset/flickr30k/*.token
+/dataset/flickr30k/*.txt
 /dataset/news_CN/*.txt
+/dataset/SVHN/Cropped/
+/dataset/SVHN/Full/
