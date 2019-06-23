@@ -25,4 +25,4 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||WGAN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/GAN/WGAN.ipynb)||
 |NLP|Word Embedding|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/WordEmbedding.ipynb)||
 ||word2vec|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/word2vec.ipynb)||
-||TextClf by LSTM|||
+||TextClf by LSTM|[notebook]()||
