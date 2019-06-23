@@ -24,5 +24,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 |[GAN](https://daya-jin.github.io/2019/02/12/GenerativeAdversarialNetwork/)|VanillaGAN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/GAN/VanillaGAN.ipynb)||
 ||WGAN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/GAN/WGAN.ipynb)||
 |NLP|Word Embedding|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/WordEmbedding.ipynb)||
-||word2vec|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/word2vec.ipynb)||
-||TextClf by LSTM|[notebook]()||
+||Word2Vec|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/word2vec.ipynb)||
+||Encoder|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/text_clf/LSTM.ipynb)||
+||TextCNN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/text_clf/TextCNN.ipynb)||
+||Encoder+Attention|||
+|RecSys|[Item Embedding](https://github.com/Daya-Jin/DL_for_learner/tree/master/RecSys)|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/RecSys/demo.ipynb)||

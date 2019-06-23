@@ -1,6 +1,6 @@
 # Embedding Based Movie RecSys
 
-[博客地址](http://localhost:4000/2019/04/10/EmbBasedMovieRec/)
+[博客地址](https://daya-jin.github.io/2019/04/10/EmbBasedMovieRec/)
 
 实现一个使用embedding方法并结合TextCNN的电影推荐算法框架，依赖环境为：
 
