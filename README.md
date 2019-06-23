@@ -21,4 +21,8 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||LSTM|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/RNN/LSTM_seq.ipynb)||
 |[Auto Encoder](https://daya-jin.github.io/2019/02/09/AutoEncoder/)|AE base|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/AE/Auto_Encoder.ipynb)||
 ||[VAE](https://daya-jin.github.io/2019/02/09/AutoEncoder/#variational-auto-encoder)|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/AE/Variational%20Auto-Encoder.ipynb)||
-|||[notebook]()||
+|[GAN](https://daya-jin.github.io/2019/02/12/GenerativeAdversarialNetwork/)|VanillaGAN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/GAN/VanillaGAN.ipynb)||
+||WGAN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/GAN/WGAN.ipynb)||
+|NLP|Word Embedding|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/WordEmbedding.ipynb)||
+||word2vec|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/word2vec.ipynb)||
+||TextClf by LSTM|||
