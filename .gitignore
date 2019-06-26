@@ -11,3 +11,7 @@
 /dataset/news_CN/*.txt
 /dataset/SVHN/Cropped/
 /dataset/SVHN/Full/
+
+.idea
+.ipynb_checkpoints
+__pycache__
