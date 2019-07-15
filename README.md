@@ -27,5 +27,5 @@ QQ: 435248055 &ensp; | &ensp; WeChat: QQ435248055 &ensp; | &ensp; [Blog](https:/
 ||Word2Vec|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/word2vec.ipynb)||
 ||Encoder|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/text_clf/LSTM.ipynb)||
 ||TextCNN|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/NLP/text_clf/TextCNN.ipynb)||
-||Encoder+Attention|||
+||Encoder+Attention|[notebook](https://github.com/Daya-Jin/DL_examples/blob/master/NLP/text_clf/Encoder_Attention.ipynb)||
 |RecSys|[Item Embedding](https://github.com/Daya-Jin/DL_for_learner/tree/master/RecSys)|[notebook](https://github.com/Daya-Jin/DL_for_learner/blob/master/RecSys/demo.ipynb)||
